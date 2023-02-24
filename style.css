@@ -12,6 +12,7 @@ body {
   cursor: default;
 }
 
+
 .title {
   font-size: 22px;
   text-align: start;
@@ -19,7 +20,7 @@ body {
   font-weight: 600;
 }
 
-.title:hover{
+.title:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
 }
@@ -45,6 +46,7 @@ p {
   max-width: 350px;
   background-color: hsl(216, 50%, 16%);
   border-radius: 1rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
 .nft-img {
@@ -52,8 +54,6 @@ p {
   width: 300px;
   height: 300px;
 }
-
-
 
 .nft-datails {
   width: 100%;
@@ -90,7 +90,7 @@ p {
   color: hsl(0, 0%, 100%);
 }
 
-.nft-creator:hover{
+.nft-creator:hover {
   cursor: pointer;
-  color:hsl(178, 100%, 50%) ;
+  color: hsl(178, 100%, 50%);
 }

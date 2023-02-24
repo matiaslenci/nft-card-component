@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -28,19 +27,7 @@
     />
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
-
-    <title>Frontend Mentor | NFT preview card component</title>
-
-    <!--! Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title> NFT card component</title>
   </head>
   <body>
     <main class="main">
@@ -48,8 +35,9 @@
         class="d-flex flex-column nft align-items-center justify-content-center"
       >
         <div class="pt-4 px-4 d-flex">
+          <!--? Image NFT  -->
           <div class="container-img">
-             <img src="./images/image-equilibrium.jpg" alt="" class="nft-img" /> 
+            <img src="./images/image-equilibrium.jpg" alt="" class="nft-img" />
           </div>
         </div>
         <!--? Body card  -->
@@ -70,7 +58,7 @@
               <p class="nft-time px-2">3 days left</p>
             </div>
           </div>
-          <!--! divider -->
+          <!--? Creator NFT -->
           <div class="d-flex flex-row align-items-end divider pt-3 pb-2">
             <img
               src="./images/image-avatar.png"
@@ -78,7 +66,7 @@
               class="nft-avatar"
             />
             <p class="ps-3">Creation of</p>
-            <p class="nft-creator ps-2">Jules Wyvern</p>
+            <span class="nft-creator ps-2">Jules Wyvern</span>
           </div>
         </div>
       </article>
